@@ -78,4 +78,7 @@ server.get(RESOURCES.SECRET, function (req, res) {
     res.send(response);
 });
 
-server.listen(8081);
+server.listen(8081,function(){
+    console.log('%s listening at %s ', server.name , server.url);
+});
+
