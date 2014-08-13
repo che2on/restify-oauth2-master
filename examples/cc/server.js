@@ -78,4 +78,4 @@ server.get(RESOURCES.SECRET, function (req, res) {
     res.send(response);
 });
 
-server.listen(8080);
+server.listen(8081);
